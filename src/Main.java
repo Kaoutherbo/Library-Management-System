@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // Testing the classes
-        Book book1 = new Book("To Kill a Mockingbird", "Harper Perennial Modern Classics", "Harper Lee");
-        Internet website1 = new Internet("My Github profile", "https://github.com/Kaoutherbo");
-        Book book2 = new Book("The Great Gatsby", "Scribner", "F. Scott Fitzgerald");
+        Book book1 = new Book("Atomic Habits", "PenguinRandomHouse", "James Clear");
+        Internet website1 = new Internet("cybersecurity upskilling platform", "https://www.hackthebox.com/");
+        Book book2 = new Book("Modern Operating Syetems", "Prentice Hall 1st-3rd Pearson PLC 4th", "ANDREW S. TANENBAUM");
 
         Library library = new Library(3);
 

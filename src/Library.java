@@ -8,15 +8,15 @@ class Library {
     }
 
     // Method to add a document to the library 
-    public void addDocument(Document d) { 
-        for (Document document : documents) { //  enhanced for loop
-            if (document == null) {
-                document = d;
-                return;
+    public void addDocument(Document d) {
+        for (int i = 0; i < documents.length; i++) {
+            if (documents[i] == null) {
+                documents[i] = d;
+                return; // Exit the loop after adding the document
             }
         }
         System.out.println("Library full, unable to add the document.");
-    }    
+    }  
 
     // Method to list and display the content of the library
     public void listing() {
